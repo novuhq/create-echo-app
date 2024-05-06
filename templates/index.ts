@@ -163,7 +163,7 @@ export const installTemplate = async ({
   }
 
   /** Copy the version from package.json or override for tests. */
-  const version = "14.1.0";
+  const version = "14.2.3";
 
   /** Create a package.json for the new project and write it to disk. */
   const packageJson: any = {
@@ -211,9 +211,9 @@ export const installTemplate = async ({
 
     packageJson.dependencies = {
       ...packageJson.dependencies,
-      "@react-email/components": "0.0.15",
-      "@react-email/tailwind": "^0.0.14",
-      "react-email": "2.1.0",
+      "@react-email/components": "0.0.17",
+      "@react-email/tailwind": "0.0.16",
+      "react-email": "2.1.2",
     };
   }
 
